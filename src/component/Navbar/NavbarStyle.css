@@ -1,0 +1,31 @@
+.navigation:hover {
+  background-color: #1890ff;
+}
+.navigation {
+  color: white;
+  padding: 10px;
+}
+.navbarDiv {
+  background-color: #001529;
+  display: flex;
+  justify-content: space-between;
+}
+.drawer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+  bottom: 68px;
+}
+
+.car:hover {
+  transition: transform 500ms;
+  transition-timing-function: linear;
+  transform: translateX(-10px);
+}
+.car {
+  font-size: 20px;
+}
+.iconDiv {
+  padding: 10px;
+}
